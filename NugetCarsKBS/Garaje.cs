@@ -89,6 +89,46 @@ namespace NugetCarsKBS
 
             };
             this.coches.Add(c);
+            c = new Coche
+
+            {
+
+                IdCoche = 4
+
+                ,
+
+                Marca = "Hyundai"
+
+                ,
+
+                Modelo = "4 v2"
+
+                ,
+
+                Imagen = "http://iconroad.es/onewebmedia/Iconos%20hyundai%C3%ABn%202CV%20En%20el%20cine%204.png"
+
+            };
+            this.coches.Add(c);
+            c = new Coche
+
+            {
+
+                IdCoche = 4
+
+                ,
+
+                Marca = "aaaa"
+
+                ,
+
+                Modelo = "2 CV"
+
+                ,
+
+                Imagen = "http://iconroad.es/onewebmedia/Iconos%20Citro%C3%ABn%202CV%20En%20el%20cine%204.png"
+
+            };
+            this.coches.Add(c);
 
         }
 
