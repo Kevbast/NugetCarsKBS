@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Title>Nuget de coches de martes Kevbast</Title>
+    <Authors>$(AssemblyName),kevbast,coches,fife,tajamar,kbs</Authors>
+    <PackageIcon>silksong.jpg</PackageIcon>
+    <PackageTags>kbs;fife;coches;cars;martes;kevbast</PackageTags>
+    <PackageReleaseNotes>Primera version del nuget</PackageReleaseNotes>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Downloads\silksong.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
